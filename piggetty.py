@@ -62,7 +62,8 @@ for word in listgetty:
 	#print(piggy(word))
 
 # Write the new string to piggy.txt.  
-print(gettypig, file = outfile)
+# print(gettypig, file = outfile)
+outfile.write(gettypig)
 
 
 # close the files.

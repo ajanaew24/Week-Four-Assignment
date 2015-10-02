@@ -62,7 +62,7 @@ for word in listgetty:
 	#print(piggy(word))
 
 # Write the new string to piggy.txt.  
-# print(gettypig, file = outfile)
+# print(gettypig, file = outfile) - this gave a syntax error so I used outfile.
 outfile.write(gettypig)
 
 
